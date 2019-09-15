@@ -1,0 +1,109 @@
+.layout{
+ overflow: hidden;
+}
+*{
+  font-family: 'Josefin Sans';
+}
+body{
+  width: 1440px;
+  height: 800px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Josefin Sans';
+  overflow: hidden;
+}
+.sec1{
+  float: left;
+  width: 800px;
+  height: 780px;
+  background-image: url(images/bg-pattern-desktop.svg);
+}
+.sec2{
+  display:block;
+  width: 650px;
+  height: auto;
+  float: right;
+  position: relative;
+  bottom: 780px;
+  margin: 0px;
+  padding: 0px;
+}
+.wlogo{
+  margin-top: 62px;
+  margin-left: 166px;
+}
+.dc{
+  font-family: 'Josefin Sans';
+  color: hsl(0, 6%, 24%);
+  margin-left: 160px;
+  font-size: 45px;
+  font-weight: bolder;
+  letter-spacing: 16px;
+  margin-top:-40px;
+}
+.title{
+  margin-left: 166px;
+  margin-top: 126px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 47px;
+  font-family: 'Josefin Sans';
+  color:  hsl(0, 36%, 70%);
+  font-weight: 300;
+  letter-spacing: 16px;
+}
+.description{
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color:  hsl(0, 36%, 70%);
+  margin-left: 164px;
+  display: block;
+  width: 400px;
+  margin-top: 24px;
+  line-height: 26px;
+  font-size: 16px;
+  
+}
+#email{
+  margin-top: 42px;
+  margin-left: 162px;
+  border-radius: 25px;
+  border: 2px solid  hsl(0, 93%, 68%);
+  outline: none;
+  padding: 17px;
+  width: 400px;
+}
+.submit{
+  background: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+  padding: 7px 40px;
+  outline: none;
+  border: none;
+  border-radius: 30px ;
+  position: relative;
+  /* margin-left: -70px; */
+  color: aliceblue;
+  font-size: 40px;
+  left: -70px;
+  top: -20px;
+  cursor: pointer;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 5px 15px 20px  &hash;8888888;
+}
+.submit:hover{
+  background: linear-gradient(45deg,hsl(0, 80%, 86%)
+  , hsl(0, 100%, 98%));
+}
+.inp {
+  position:     relative;
+  font-size:    16px;
+  display:      inline-block;
+  top:-25px;
+}
+input [type="email"]
+{
+  border:  none;
+  oultine:   none;
+  font-size: 22px;
+  font-family: 'Josfin sans';
+  letter-spacing: 1px;
+}

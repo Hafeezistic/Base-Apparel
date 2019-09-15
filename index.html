@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div >
+  <div class="sec1">
+      <img src="images/logo.svg" alt="" class="wlogo">
+      <p class="title">WE'RE</p> 
+      <p class="dc">COMING </p> 
+      <p class="dc">SOON</p>
+     
+      <p class="description">
+          Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <form name="myform">
+      <input type="email" name="email" id="email" required autocomplete="off" class="inp id1" spellcheck="false" placeholder="Email Address">
+     <button type="submit" class="submit" onclick="myFunction">
+        <img src="images/icon-arrow.svg" alt="">
+     </button>
+     <div class="div">
+
+     </div>
+    </form>
+  </div>
+  <div class="sec2">
+    <img src="images/hero-desktop.jpg" alt="Coming soon Page">
+  </div>
+</div>
+  <!-- 
+
+  
+
+  Email Address -->
+  
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Hafeezur Rahman</a>.
+    </p>
+  </footer> -->
+
+  <script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+
+    $('#myform').validate({
+    errorElement: '',
+    rules: {
+        email: {
+            required: true
+        }
+    }
+});
+
+});
+  </script>
+
+</body>
+</html>
